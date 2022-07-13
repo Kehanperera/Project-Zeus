@@ -27,7 +27,7 @@ def email():
 def auth():
     name = input("Enter Username: ")
     password = input("Enter Password: ")
-    if name == name and password == password:
+    if name == "kehan" and password == "LOG":
         beep1()
         print("Welcome")
         speak("welcome sir")
